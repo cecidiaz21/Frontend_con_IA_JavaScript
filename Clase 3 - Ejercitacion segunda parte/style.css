@@ -1,0 +1,17 @@
+#boxHover {
+      width: 120px;
+      height: 80px;
+      background: lightblue;
+      position: relative;
+      transition: transform 0.25s ease;
+    }
+    /* clase que mueve el elemento */
+    .moved {
+      transform: translate(150px, 40px);
+    }
+#boxHover1 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  position: relative;
+}

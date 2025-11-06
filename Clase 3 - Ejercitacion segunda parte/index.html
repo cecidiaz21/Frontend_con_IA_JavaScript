@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercitación Clase 3 </title>
+</head>
+
+<body>
+    
+    <h2>1. Crea un botón que muestre un mensaje en consola al hacer clic.</h2>
+    <button id="myButton"> Enviar</button>
+   
+    
+    <h2>2. Haz que un campo de texto cambie su color de fondo al escribir en él.</h2>
+    <input type="text" id="cambiaColor" placeholder="Escribe algo">
+
+    <h2>3. Implementa un contador que aumente cada vez que se haga clic en un botón.</h2>
+    <button id="button"> Contador</button>
+    <p>Has hecho <span id="contador">0</span> clics.</p>
+
+    <h2>4. Muestra un mensaje de error si un campo de texto está vacío al enviar un formulario.</h2>
+    <form id="myForm">
+        <label for="email">e-mail</label>
+        <input type="text" id="email" placeholder="Ingrese su email">
+        <div id="error-message"></div>
+        <button type="submit">Enviar</button>
+       
+    </form>
+    
+    <h2>5. Cambia la posición de un elemento</h2>
+    <div id="boxHover" style="width: 100px; height: 100px; background-color: lightblue; position: relative; transition: transform 0.3s ease;">Pasa el mouse por aquí</div>
+
+    <h2>6. Detecta y muestra en la consola la tecla presionada por el usuario.</h2>
+    <input type="text" id="inputKeydown" placeholder="Presiona una tecla">
+
+    <h2>7. Implementa un botón que oculte o muestre un elemento al hacer clic (toggle).</h2>
+    <button id="toggleBtn">Mover / Volver</button>
+    <div id="boxHover1"></div>
+
+    <h2>8. Crea un campo de selección (dropdown) que actualice un párrafo con la opción seleccionada.</h2>
+    <p>Piedra papel o tijera?: <select id="dropdown">
+        <option value="">Selecciona una opción</option>
+        <option value="Opción 1">Piedra</option>
+        <option value="Opción 2">Papel</option>
+        <option value="Opción 3">Tijera</option>
+    </select> y la opción seleccionada es: <span id="selectedOption">ninguna</span></p>
+
+    <h2>9. Implementa un formulario con validación para correos electrónicos.</h2>
+    <form id="formSubmit">
+        <label for="email">e-mail</label>
+        <input type="text" id="email" placeholder="Ingrese su email">
+        <button type="submit">Enviar</button>
+       
+    </form>
+
+    <h2>10. Haz un evento que cambie el texto de un botón al hacer clic en él.</h2>
+    <button id="cambiaTexto"> click </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
