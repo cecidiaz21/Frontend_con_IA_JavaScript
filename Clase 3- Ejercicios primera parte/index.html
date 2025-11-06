@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Primera parte </title>
+    <style>
+        p{
+            padding: 10px;
+        }
+        .oculto {
+            display: none;
+        }
+        </style>
+</head>
+<body>
+    <h1 id="encabezado">Encabezado Original</h1>
+    <p id="parrafo">Este es un parrafo con fondo blanco.</p>
+
+    <h2>1-Selecciona un elemento por su ID y cambia su texto.</h2>
+    <button id="btnCambiar">Cambiar contenido</button>
+
+<script>
+    document.getElementById("btnCambiar").addEventListener("click", ()=> {
+    const encabezado = document.getElementById("encabezado");
+    const parrafo = document.getElementById("parrafo");
+    //Cambiar texto del encabezado
+    encabezado.textContent = "Encabezado Modificado";
+    //Cambiar color de fondo del párrafo
+    parrafo.style.backgroundColor = "lightblue";
+});
+
+</script>
+
+<div id="mi clase"> Texto 1 </div>
+<div id="mi clase"> Texto 2 </div>
+<div id="mi clase"> Texto 3 </div>
+
+<button id=" miBoton"> Nueva clase</button>
+
+<div id="miElemento claseExistente"> Texto 1 </div>
+
+
+
+<script src="script.js"> </script>
+</body>
+
+</html>

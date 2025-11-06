@@ -1,0 +1,8 @@
+body{
+    background-color:aquamarine;
+}
+
+.titulo1{
+    color: bisque;
+}
+/* aca lo coloque como clase en el html para q se vea el cambio en el titulo 4 xq el js modificaba a los anteriores */
